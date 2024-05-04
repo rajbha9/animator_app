@@ -12,7 +12,6 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-
   @override
   Widget build(BuildContext context) {
     PlanetProvider planetProvider = Provider.of<PlanetProvider>(context);
@@ -33,6 +32,7 @@ class _HomePageState extends State<HomePage> {
             'PLANETS',
             style: TextStyle(
               color: Colors.white,
+              letterSpacing: 2,
               fontWeight: FontWeight.bold,
             ),
           ),

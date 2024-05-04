@@ -46,25 +46,18 @@ class PlanetCard extends StatelessWidget {
                 const Color((0xFFFFFFFF)).withOpacity(0.5),
               ],
             ),
-            // decoration: BoxDecoration(
-            //   color: Colors.transparent,
-            //   borderRadius: BorderRadius.circular(40),
-            // ),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
-              // crossAxisAlignment: CrossAxisAlignment.center,
               children: [
                 Column(
                   children: [
-                    Container(
-                      child: Hero(
-                        tag: planet.name,
-                        child: Image.network(
-                          planet.image,
-                          fit: BoxFit.cover,
-                          height: 150,
-                          width: 150,
-                        ),
+                    Hero(
+                      tag: planet.name,
+                      child: Image.network(
+                        planet.image,
+                        fit: BoxFit.cover,
+                        height: 150,
+                        width: 150,
                       ),
                     ),
                     Text(
@@ -89,7 +82,8 @@ class PlanetCard extends StatelessWidget {
                     Text(
                       "Position: ${planet.position}",
                       style: const TextStyle(
-                          fontSize: 12,
+                          fontSize: 15,
+                          letterSpacing: 1,
                           color: Colors.white,
                           fontWeight: FontWeight.bold),
                     ),
@@ -97,7 +91,8 @@ class PlanetCard extends StatelessWidget {
                     Text(
                       "Velocity: ${planet.velocity} km/s",
                       style: const TextStyle(
-                          fontSize: 12,
+                          fontSize: 15,
+                          letterSpacing: 1,
                           color: Colors.white,
                           fontWeight: FontWeight.bold),
                     ),
@@ -105,7 +100,8 @@ class PlanetCard extends StatelessWidget {
                     Text(
                       "Distance: ${planet.distance}",
                       style: const TextStyle(
-                          fontSize: 12,
+                          fontSize: 15,
+                          letterSpacing: 1,
                           color: Colors.white,
                           fontWeight: FontWeight.bold),
                     ),

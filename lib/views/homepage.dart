@@ -21,7 +21,7 @@ class _HomePageState extends State<HomePage> {
         image: DecorationImage(
           fit: BoxFit.fill,
           image: AssetImage(
-            'asset/img/bg.jpeg',
+            'asset/img/b.jpg',
           ),
         ),
       ),
@@ -30,7 +30,7 @@ class _HomePageState extends State<HomePage> {
         appBar: AppBar(
           backgroundColor: Colors.transparent,
           title: const Text(
-            'Planets',
+            'PLANETS',
             style: TextStyle(
               color: Colors.white,
               fontWeight: FontWeight.bold,

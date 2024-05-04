@@ -2,7 +2,7 @@ import 'package:animator_app/modules/model_planet.dart';
 import 'package:flutter/material.dart';
 import 'package:glassmorphism/glassmorphism.dart';
 
-class PlanetCard extends StatefulWidget {
+class PlanetCard extends StatelessWidget {
   final List<PlanetModel> planets;
   final int currentIndex;
 
@@ -11,19 +11,15 @@ class PlanetCard extends StatefulWidget {
       : super(key: key);
 
   @override
-  State<PlanetCard> createState() => _PlanetCardState();
-}
-
-class _PlanetCardState extends State<PlanetCard> {
-  @override
   Widget build(BuildContext context) {
     return PageView.builder(
-      itemCount: widget.planets.length,
+      itemCount: planets.length,
       controller: PageController(
-        initialPage: widget.currentIndex,
+        initialPage: currentIndex,
+        // viewportFraction: 0.9,
       ),
       itemBuilder: (context, index) {
-        final planet = widget.planets[index];
+        final planet = planets[index];
         return Padding(
           padding: const EdgeInsets.symmetric(horizontal: 8.0, vertical: 8.0),
           child: GlassmorphicContainer(
@@ -31,11 +27,11 @@ class _PlanetCardState extends State<PlanetCard> {
             width: double.infinity,
             blur: 1,
             borderRadius: 40,
-            border: 2,
+            border: 0.7,
             linearGradient: LinearGradient(
               colors: [
+                const Color(0xFF000000).withOpacity(0.1),
                 const Color(0xFFFFFFFF).withOpacity(0.5),
-                const Color(0xFFE80C0C).withOpacity(0.5),
               ],
               stops: const [
                 0.1,
@@ -46,8 +42,8 @@ class _PlanetCardState extends State<PlanetCard> {
               begin: Alignment.topLeft,
               end: Alignment.bottomRight,
               colors: [
-                const Color(0xff0a0a0a).withOpacity(0.5),
-                const Color(0xFF050000).withOpacity(0.5),
+                const Color(0xFFffffff).withOpacity(0.5),
+                const Color((0xFFFFFFFF)).withOpacity(0.5),
               ],
             ),
             // decoration: BoxDecoration(

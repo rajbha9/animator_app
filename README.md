@@ -48,7 +48,7 @@ Remember to keep your documentation clear, concise, and up-to-date. It should be
 Splash
 
 
-![splash](https://github.com/rajbha9/animator_app/assets/135328342/21db15bc-36ed-4f01-9d74-b355609bcb72)
+![splashe](https://github.com/rajbha9/animator_app/assets/135328342/96e3b5da-77cf-445e-94d2-78c1d3056afd)
 
 
 Home Page
@@ -64,11 +64,6 @@ Dateil Pages
 
 ![dateil2](https://github.com/rajbha9/animator_app/assets/135328342/df934852-028c-4cd1-82a3-03e1d56028cc)
 
-Video 
-
-
-
-https://github.com/rajbha9/animator_app/assets/135328342/67e4ae54-2856-4774-85e7-091f2ac66e25
 
 
 

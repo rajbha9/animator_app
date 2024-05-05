@@ -2,16 +2,7 @@
 
 A new Flutter project.
 
-## Getting Started
+![splash](https://github.com/rajbha9/animator_app/assets/135328342/21db15bc-36ed-4f01-9d74-b355609bcb72),![homepage](https://github.com/rajbha9/animator_app/assets/135328342/c0fb7a15-2a34-42ce-ad3e-5e65ae2f1011)
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
 

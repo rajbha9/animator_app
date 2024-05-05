@@ -44,12 +44,23 @@ Remember to keep your documentation clear, concise, and up-to-date. It should be
 
 ## Screenshots
 
+
 Splash
 
+
 ![splash](https://github.com/rajbha9/animator_app/assets/135328342/21db15bc-36ed-4f01-9d74-b355609bcb72)
+
 
 Home Page
 
 
 ![homepage](https://github.com/rajbha9/animator_app/assets/135328342/c0fb7a15-2a34-42ce-ad3e-5e65ae2f1011 )
+
+
+Dateil Pages
+
+
+![dateil1](https://github.com/rajbha9/animator_app/assets/135328342/c7cf0b1e-f9b8-4ef2-a0d7-4194280a5c6a)
+
+![dateil2](https://github.com/rajbha9/animator_app/assets/135328342/df934852-028c-4cd1-82a3-03e1d56028cc)
 

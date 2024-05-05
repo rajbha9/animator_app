@@ -64,3 +64,11 @@ Dateil Pages
 
 ![dateil2](https://github.com/rajbha9/animator_app/assets/135328342/df934852-028c-4cd1-82a3-03e1d56028cc)
 
+Video 
+
+
+
+https://github.com/rajbha9/animator_app/assets/135328342/67e4ae54-2856-4774-85e7-091f2ac66e25
+
+
+
